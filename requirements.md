@@ -1,4 +1,4 @@
-# mcm-cois-2350-fall-2023-week1
+# mcm-cois-2350-fall-2024-week2
 
 Write a simple Java program by modifying the starter code in the file named "Greeting.java" to do the following:
 
