@@ -1,28 +1,45 @@
-# mcm-cois-2350-fall-2024-week2
+# mcm-cois-2350-week2
 
-Write a simple Java program by modifying the starter code in the file named "Greeting.java" to do the following:
+Write a simple Java program by modifying the starter code in the file named Greeting.java to do the following:
 
-Display the messages exactly as shown in the sample output file named "sample-output.png" in the activity repository by using a separate output statement for each line of output. 
-
-
-The given output is providing the instructor's name and teaching schedule. Make sure to provide your name and your class schedule while implementing this little tool in Java. The sample output is also displayed at the end of this document!
-
-The commands for executing the starter code file is provided below:
+Develop a "Student Introduction Tool" that displays the following details, each on a separate line (using separate output statements):
 
 ```
+Your name
+Your student ID 
+The list of courses you are taking this semester
+```
+
+A motivational quote or message that inspires you (choose your own!)
+
+The program should display everything in a neat and clear format similar to the sample output file provided in the activity repository.
+
+⚡ Hint: You don’t need loops or arrays yet. Just use multiple System.out.println statements for each line of text. It is expected that all your code should go inside the main method for the most part to get it functional. 
+
+Example Output (your details will be different!):
+
+```
+Hello, my name is WarHawks.  
+My student ID is: 123456  
+This semester, I am registered for the following courses:  
+- COIS-2350: Introduction to Programming  
+- COIS-2450: Computer Networks  
+- COIS-3250: Database Systems  
+
+"Learning never exhausts the mind." – Leonardo da Vinci  
+```
+It is very important to make sure you match the output and review the First.java program that we did in class for getting proper directions. 
+
+Add your detailed comments through general header comments and comments inside your program. 
+
+Commands for running the program:
+
 javac Greeting.java
 java Greeting
-```
 
-The commands for submitting the completed activity is provided below:
+Commands for submitting the completed activity:
 
-```
 git add .
 git commit -m "submitting completed work for week2!"
 git push
-```
-
-## Sample Output:
-
-![sample-output1](images/sample-output.png)
 
